@@ -21,7 +21,7 @@ public class PersistentExpenseManager extends ExpenseManager {
         setup();
     }
     @Override
-    public void set up(){
+    public void setup(){
 
         SQLiteDatabase mydatabase = context.openOrCreateDatabase("140577", context.MODE_PRIVATE, null);
 
